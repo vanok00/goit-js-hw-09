@@ -10,7 +10,7 @@ const formData = {
   message: '',
 };
 
-const savedData = localStorage.getItem(storageKey); // при первой загрузке стр LS еще пустой по этому будет null і далі діла не буде и дальше если будем делать парсинг уже будет ошибка
+const savedData = localStorage.getItem(storageKey);
 
 let parsedData = {};
 if (savedData) {
